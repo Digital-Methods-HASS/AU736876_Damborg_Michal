@@ -1,0 +1,6 @@
+rooms <- c(1, 5, 2, 3, 1, NA, 3, 1, 3, 2, NA, 1, 8, 3, 1, 4, NA, 1, 3, 1, 2, 1, 7, 1, NA, 4, 3 ,1 ,7 ,2 ,1 ,NA ,1, 1, 3)
+sum(rooms > 2, na.rm = TRUE)
+class(rooms)
+median(rooms)
+library(tidyverse)
+interviews <- read_csv("SAFI_clean.csv")
